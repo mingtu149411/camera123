@@ -1,0 +1,29 @@
+{
+  "FileVersion": 3,
+  "Version": 3,
+  "VersionName": "0.2.1",
+  "FriendlyName": "Camera Refinement",
+  "Description": "Camera near-plane pixel positions and native post-process volume boundaries. 作者：南京大学24届沈逸文。",
+  "Category": "Rendering",
+  "CreatedBy": "南京大学24届沈逸文",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "EngineVersion": "5.7.0",
+  "CanContainContent": true,
+  "IsBetaVersion": true,
+  "Installed": true,
+  "Modules": [
+    {
+      "Name": "CameraRefinement",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit"
+    },
+    {
+      "Name": "CameraRefinementEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ]
+}

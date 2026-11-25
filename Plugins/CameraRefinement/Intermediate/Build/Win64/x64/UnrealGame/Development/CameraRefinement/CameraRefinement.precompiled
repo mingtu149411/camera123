@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"Module.CameraRefinement.cpp.obj",
+		"CameraRefinementData.cpp.obj",
+		"CameraRefinementModule.cpp.obj",
+		"CameraRefinementNative.cpp.obj"
+	]
+}

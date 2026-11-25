@@ -1,0 +1,366 @@
+{
+  "Author": "南京大学24届沈逸文",
+  "HashAlgorithm": "SHA-256",
+  "Files": [
+    {
+      "Path": ".gitattributes",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 111,
+      "SHA256": "21eca7b3b9ce42f09542a535e90d9025543d98a313905bd3c5a761c8d6bf46d3"
+    },
+    {
+      "Path": ".gitignore",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 49,
+      "SHA256": "c9c1211eb7ad404ac33b942d14bc716597025caef57cc5e0ae32774bc09e4a10"
+    },
+    {
+      "Path": "Apply-AuthorMetadata.ps1",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 502,
+      "SHA256": "38fdc5c9dc4cb0e1f90418f20280f75276f0c122cef39bf8a3de67f485b3b017"
+    },
+    {
+      "Path": "dist/CameraRefinement_UE5.7_Win64_v0.2.1.zip",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 15933080,
+      "SHA256": "00c59d3a855978a841f3ba9c12f7d26d1217896219c870846310ce9534f99192"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Apply-AuthorMetadata.ps1",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 502,
+      "SHA256": "38fdc5c9dc4cb0e1f90418f20280f75276f0c122cef39bf8a3de67f485b3b017"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Binaries/Win64/UnrealEditor-CameraRefinement.dll",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 317440,
+      "SHA256": "d141ebed518aa6db564ebd96e350bb1f99be8575cc78b5114d78caed7bec33c2"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Binaries/Win64/UnrealEditor-CameraRefinementEditor.dll",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 145920,
+      "SHA256": "5ab723f264b15a20748b4fc8019f7654143e5c9a26c7caecb360b76deba16146"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Binaries/Win64/UnrealEditor.modules",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 182,
+      "SHA256": "3cdcdbcaf01d0576aeb3e3b27125f9d46125a3a98212bef07551b98366995d65"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/CameraRefinement.uplugin",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 773,
+      "SHA256": "d9c282679cbece9f9814da02be4ec7ca180b5202113f78fb6199273f8ef44bbc"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Config/FilterPlugin.ini",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 522,
+      "SHA256": "de17e9a37d3a2e8fc219595c81ecae1a40ac3cab2a4e72086772e874db439094"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Content/Materials/MF_RefinedCameraPosition.uasset",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 10539,
+      "SHA256": "17d7d8964336a6ae2148102766313eac8828e1072cf04630fce034d490cb179a"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Documentation/作者标识与文件完整性.md",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1949,
+      "SHA256": "3c2051f31103f45ea8722cbc997247dca7688a166daa2435b6bde3d803cd0808"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Documentation/安装与使用说明.md",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 4479,
+      "SHA256": "12d7d6fbba7a4bf4d9ecf5c6fa78f8f2d826dd25ea9a8259222ae3ff520ba458"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Documentation/技术说明.md",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 5524,
+      "SHA256": "a43582572a5509410edbbe797e9b10ad687a34d5df1d0532d288348a6b33eb3b"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinement.init.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1627,
+      "SHA256": "33e4f0d7409ab95f5ee3238153bf82a5b997f2b0ddbb3da7c338dc66e1b2a254"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinementClasses.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 353,
+      "SHA256": "1270d67f056d111136d87fed9076cb3f77df8b680fe4464c38514e021940c54e"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinementData.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 23707,
+      "SHA256": "21f43994d2b67b40d129a7e433dd8d68572b77356c73e1513f4a2749a60fe7aa"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinementData.generated.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 6652,
+      "SHA256": "f3a0d40a044a850763686cbdf169e3ccb22bca760cafed523121477d98189bbe"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinementNativeState.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 10665,
+      "SHA256": "96344993c57f469f1960d0e2fe21aff2f216bb58f1db02e12aac2783dbc4e747"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinementNativeState.generated.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 3774,
+      "SHA256": "7c40f03a272e820081529705907596690667bc78c95b97a73685eb81a1e11c74"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinementSettings.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 13290,
+      "SHA256": "9293bd258f1041202c03fe430583de906864b4816722c7bba51be52079dffb1e"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/CameraRefinementSettings.generated.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 3782,
+      "SHA256": "1577a5f79ec091250c61ad7395941fa5b70ffd2c866db33f1c9be6bee18c4acb"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealEditor/Inc/CameraRefinement/UHT/Timestamp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 426,
+      "SHA256": "a36b0dc71f12373eb35a1f174671a68c24a69614a72f468cb8d70a00c27e7c9e"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinement.init.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1627,
+      "SHA256": "33e4f0d7409ab95f5ee3238153bf82a5b997f2b0ddbb3da7c338dc66e1b2a254"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinementClasses.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 353,
+      "SHA256": "1270d67f056d111136d87fed9076cb3f77df8b680fe4464c38514e021940c54e"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinementData.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 23707,
+      "SHA256": "21f43994d2b67b40d129a7e433dd8d68572b77356c73e1513f4a2749a60fe7aa"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinementData.generated.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 6652,
+      "SHA256": "f3a0d40a044a850763686cbdf169e3ccb22bca760cafed523121477d98189bbe"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinementNativeState.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 10665,
+      "SHA256": "96344993c57f469f1960d0e2fe21aff2f216bb58f1db02e12aac2783dbc4e747"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinementNativeState.generated.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 3774,
+      "SHA256": "7c40f03a272e820081529705907596690667bc78c95b97a73685eb81a1e11c74"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinementSettings.gen.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 13290,
+      "SHA256": "9293bd258f1041202c03fe430583de906864b4816722c7bba51be52079dffb1e"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/CameraRefinementSettings.generated.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 3782,
+      "SHA256": "1577a5f79ec091250c61ad7395941fa5b70ffd2c866db33f1c9be6bee18c4acb"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/UnrealGame/Inc/CameraRefinement/UHT/Timestamp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 426,
+      "SHA256": "a36b0dc71f12373eb35a1f174671a68c24a69614a72f468cb8d70a00c27e7c9e"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealEditor/Development/CameraRefinement/UnrealEditor-CameraRefinement.lib",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 31970,
+      "SHA256": "6a944fadde0f99ea8276a069cab2a8cc761c736124ef5e849318c0919f0cec2a"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealEditor/Development/CameraRefinementEditor/UnrealEditor-CameraRefinementEditor.lib",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 2522,
+      "SHA256": "77ea9a391a3ab39c552dc29a859388c74c5f67b8a39f46176db2522bbf91431c"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Development/CameraRefinement/CameraRefinement.precompiled",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 173,
+      "SHA256": "acb1a74b807d5d8e22ea09dade8be6cab99d2c65197a200fc5cd04ff702a78ff"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Development/CameraRefinement/CameraRefinementData.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 6801767,
+      "SHA256": "86cf57b5e2905101dc785cb3dcd0b820aea4ac8ea4c413e7627065824878cded"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Development/CameraRefinement/CameraRefinementModule.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 8562463,
+      "SHA256": "8cd6afe8e9856cbe1c42fd12a54871fe253442ab7ba4528410b87ecc339a8ecc"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Development/CameraRefinement/CameraRefinementNative.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 18453175,
+      "SHA256": "8e018e52c2640c6aa14408e9dc482147669418d35e9d2540003e84bc8b028c22"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Development/CameraRefinement/Module.CameraRefinement.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 7063471,
+      "SHA256": "93302d2005e4704059c5569861e34dda054ccfe44a58890c6de342463098707a"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Shipping/CameraRefinement/CameraRefinement.precompiled",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 173,
+      "SHA256": "acb1a74b807d5d8e22ea09dade8be6cab99d2c65197a200fc5cd04ff702a78ff"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Shipping/CameraRefinement/CameraRefinementData.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 6132979,
+      "SHA256": "df92a07a280a1620337a2a5aba41d68f344fc4f4525b995d41cb88de6a5da177"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Shipping/CameraRefinement/CameraRefinementModule.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 7751499,
+      "SHA256": "a4e8472e0a6cb506ede037e5f48b86056473e5fef69233202084332103c66c40"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Shipping/CameraRefinement/CameraRefinementNative.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 16338770,
+      "SHA256": "40c5ab058a108061cd8b5729e7b5d800351870b4467575fd7d3780c4a63380f4"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Intermediate/Build/Win64/x64/UnrealGame/Shipping/CameraRefinement/Module.CameraRefinement.cpp.obj",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 6383150,
+      "SHA256": "67684399bc0f0fe5106c66915ffb8685c34f30a277b910c40c7b6536bb9350b1"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/README.md",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 752,
+      "SHA256": "22feca1c395ebfbf9b222a22f554cfba3a8f1688bdb889e4b408221fe1cf1bdd"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Shaders/CameraRefinement.ush",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1061,
+      "SHA256": "76a0648e86e45c2de35c12179da10df28111645a569a3f1e1e0e221713ba0857"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Shaders/NativeVolumes.usf",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 3163,
+      "SHA256": "10efed6a54507dd5fd1a08868cce416fbd6d4d7c2f29b41b040394558f805d9a"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/CameraRefinement.Build.cs",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 431,
+      "SHA256": "52dd4f424e97a9e5a3bdbe193f58bc560e54263d8fdf13a119bbcf4b1ae380a4"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/Private/CameraRefinementData.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1573,
+      "SHA256": "f7c4ef523e6069cd8b622efdf5f11f2a65a84d1364f00b3f38604dfbb0848cb2"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/Private/CameraRefinementModule.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1290,
+      "SHA256": "5456a8c9a6fc62d8b8509279412676a595d7b4ed2da0dad084844a8811984b98"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/Private/CameraRefinementNative.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 19367,
+      "SHA256": "aaf8bf6ee3d8c3efb4517d1e67f050f2b827f1e614cef728be00cab9c75b05d1"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/Private/CameraRefinementNative.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 493,
+      "SHA256": "9141f50cfb6956dc1fcd5f2df790d7ac7a4182a70ee2923075e9dd43acef4e0b"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/Private/CameraRefinementNativeState.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 646,
+      "SHA256": "cca7ce2551c7980ce90ffb179becbfd5215026f65a95629686fb5e4f44b4630a"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/Public/CameraRefinementData.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1429,
+      "SHA256": "8cf76ef6c16989f2edc38829492764693414777a3140a7d252a4f89038981017"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinement/Public/CameraRefinementSettings.h",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 1269,
+      "SHA256": "b3020c1f727064b26c7df5f167846da54d1d82ad6bc6411a3826af7eadd7d32a"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinementEditor/CameraRefinementEditor.Build.cs",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 410,
+      "SHA256": "523bc4cc57693c07802d5f4de5bf20eb0e0e6ee41cb90a0e39f4e8f7301672c5"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/Source/CameraRefinementEditor/Private/CameraRefinementEditor.cpp",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 5259,
+      "SHA256": "d491fd3d847d8a3352601467c4cc7a372df9b36ac455a48beca3ee0e435a8818"
+    },
+    {
+      "Path": "README.md",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 4155,
+      "SHA256": "8d8ec061abeb61af8cfbc8963f14db0644464968621b6c1b756ec0b9f5eceab4"
+    },
+    {
+      "Path": "Plugins/CameraRefinement/AUTHORSHIP.json",
+      "Author": "南京大学24届沈逸文",
+      "Bytes": 14133,
+      "SHA256": "00f7a24a9b02f6195e916680542bc5cfa044d031ae41c796dac73542f0d79f1c"
+    },
+    {
+      "Path": "AUTHORSHIP.json",
+      "Author": "南京大学24届沈逸文",
+      "SHA256": null,
+      "Note": "Self-hash omitted"
+    }
+  ]
+}

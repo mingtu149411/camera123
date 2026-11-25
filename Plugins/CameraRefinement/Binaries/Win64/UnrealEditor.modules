@@ -1,0 +1,8 @@
+{
+	"BuildId": "47537391",
+	"Modules": 
+	{
+		"CameraRefinement": "UnrealEditor-CameraRefinement.dll",
+		"CameraRefinementEditor": "UnrealEditor-CameraRefinementEditor.dll"
+	}
+}

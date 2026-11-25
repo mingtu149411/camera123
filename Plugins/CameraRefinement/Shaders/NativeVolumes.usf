@@ -1,0 +1,69 @@
+// 作者：南京大学24届沈逸文
+#include "/Engine/Public/Platform.ush"
+#include "/Engine/Private/Common.ush"
+float2 OutputMin;
+float2 OutputSize;
+float2 InputMinUV;
+float2 InputSizeUV;
+float3 Origin;
+float3 Dx;
+float3 Dy;
+float4 Radii;
+uint VolumeCount;
+uint HullCount;
+float4 Planes[256];
+float4 Hulls[32];
+float4 Edges[1024];
+Texture2D SceneColor;
+Texture2D Color1;
+Texture2D Color2;
+Texture2D Color3;
+Texture2D Color4;
+Texture2D Color5;
+Texture2D Color6;
+Texture2D Color7;
+SamplerState ColorSampler;
+float HullDistance(float3 P,uint Start,uint Count,uint EdgeStart,uint EdgeCount){
+ float MaxD=-1e30;
+ [loop] for(uint J=0;J<Count;J++)MaxD=max(MaxD,dot(Planes[Start+J].xyz,P)-Planes[Start+J].w);
+ if(MaxD<=0)return 0;
+ float Best=1e30;
+ // Euclidean distance to convex boundary: interior face projections plus actual mesh edges.
+ [loop] for(uint I=0;I<Count;I++){
+  float4 Plane=Planes[Start+I];float D=dot(Plane.xyz,P)-Plane.w;
+  if(D<0)continue;
+  float3 Q=P-D*Plane.xyz;bool Inside=true;
+  [loop] for(uint K=0;K<Count;K++)Inside=Inside&&(dot(Planes[Start+K].xyz,Q)-Planes[Start+K].w<=0.0001);
+  if(Inside)Best=min(Best,D);
+ }
+ [loop] for(uint E=0;E<EdgeCount;E++){
+  float3 A=Edges[2*(EdgeStart+E)].xyz,B=Edges[2*(EdgeStart+E)+1].xyz,AB=B-A;
+  float T=saturate(dot(P-A,AB)/max(dot(AB,AB),1e-20));Best=min(Best,length(P-(A+T*AB)));
+ }
+ return Best;
+}
+void MainPS(noperspective float4 InUV:TEXCOORD0,out float4 OutColor:SV_Target0){
+ float2 UV=(InUV.xy-InputMinUV)/InputSizeUV;
+ float3 P=Origin+UV.x*Dx+UV.y*Dy;
+ float3 Distance=float3(1e30,1e30,1e30);
+ [loop] for(uint H=0;H<HullCount;H++){
+  uint Start=(uint)Hulls[H].x,Count=(uint)Hulls[H].y,Region=(uint)Hulls[H].z,Packed=(uint)Hulls[H].w;
+  float D;
+  if(Radii[Region]<=0){float MaxD=-1e30;[loop] for(uint J=0;J<Count;J++)MaxD=max(MaxD,dot(Planes[Start+J].xyz,P)-Planes[Start+J].w);D=MaxD<=0?0:1e30;}
+  else D=HullDistance(P,Start,Count,Packed%1024,Packed/1024);
+  if(Region==0)Distance.x=min(Distance.x,D);else if(Region==1)Distance.y=min(Distance.y,D);else Distance.z=min(Distance.z,D);
+ }
+ float3 W=0;
+ W.x=Radii.x>=1?saturate(1-Distance.x/max(Radii.x,1)):float(Distance.x<=Radii.x);
+ if(VolumeCount>1)W.y=Radii.y>=1?saturate(1-Distance.y/max(Radii.y,1)):float(Distance.y<=Radii.y);
+ if(VolumeCount>2)W.z=Radii.z>=1?saturate(1-Distance.z/max(Radii.z,1)):float(Distance.z<=Radii.z);
+ OutColor=0;
+ float A=(1-W.x)*(1-W.y)*(1-W.z);[branch]if(A>0)OutColor+=A*SceneColor.SampleLevel(ColorSampler,InputMinUV+UV*InputSizeUV,0);
+ A=W.x*(1-W.y)*(1-W.z);[branch]if(A>0)OutColor+=A*Color1.SampleLevel(ColorSampler,UV,0);
+ A=(1-W.x)*W.y*(1-W.z);[branch]if(A>0)OutColor+=A*Color2.SampleLevel(ColorSampler,UV,0);
+ A=W.x*W.y*(1-W.z);[branch]if(A>0)OutColor+=A*Color3.SampleLevel(ColorSampler,UV,0);
+ A=(1-W.x)*(1-W.y)*W.z;[branch]if(A>0)OutColor+=A*Color4.SampleLevel(ColorSampler,UV,0);
+ A=W.x*(1-W.y)*W.z;[branch]if(A>0)OutColor+=A*Color5.SampleLevel(ColorSampler,UV,0);
+ A=(1-W.x)*W.y*W.z;[branch]if(A>0)OutColor+=A*Color6.SampleLevel(ColorSampler,UV,0);
+ A=W.x*W.y*W.z;[branch]if(A>0)OutColor+=A*Color7.SampleLevel(ColorSampler,UV,0);
+}

@@ -1,0 +1,19 @@
+// 作者：南京大学24届沈逸文
+#ifndef CAMERA_REFINEMENT_USH
+#define CAMERA_REFINEMENT_USH
+// Viewport-local UV, top-left origin. No depth, object lookup or ray marching.
+float3 CRNearTranslatedWorld(float2 UV) {
+ float2 ClipXY = UV * float2(2,-2) + float2(-1,1);
+ float3 Numerator = ResolvedView.ClipToTranslatedWorld[0].xyz * ClipXY.x
+                  + ResolvedView.ClipToTranslatedWorld[1].xyz * ClipXY.y
+                  + (ResolvedView.ClipToTranslatedWorld[2].xyz + ResolvedView.ClipToTranslatedWorld[3].xyz);
+ float InvW = rcp(ResolvedView.ClipToTranslatedWorld[2].w + ResolvedView.ClipToTranslatedWorld[3].w);
+ return Numerator * InvW;
+}
+// Add this small offset to the native LWC CameraPositionWS in the material graph.
+float3 CRPositionOffset(float2 UV, float2 SvPosition) {
+ if ((View.PostVolumeUserFlags & 0x40000000) == 0) return float3(0,0,0);
+ // Match MaterialTemplate's LWCData.WorldCameraOrigin, including orthographic views.
+ return CRNearTranslatedWorld(UV) - ResolvedView.TranslatedWorldCameraOrigin;
+}
+#endif
